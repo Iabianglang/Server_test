@@ -1,4 +1,4 @@
-cd /c/client_test
+cd /c/Client
 
 git clone https://github.com/Iabianglang/Client_test.git
 
@@ -10,8 +10,10 @@ mv * /c/server_test/public
 
 cd /c/server_test
 
-git add .
+git remote rm origin
 
-git pull origin main --allow-unrelated-histories
+git remote add origin https://github.com/Iabianglang/Server_test.git
+
+git pull origin master --allow-unrelated-histories
 
 git status
