@@ -31,3 +31,7 @@ git commit -m "commit to Server"
 git push origin main
 
 git status
+
+cd /c
+
+rm -r Client
