@@ -22,6 +22,8 @@ cd /c/Server_test
 
 git remote add origin https://github.com/Iabianglang/Server_test.git
 
+git pull origin main --allow-unrelated-histories
+
 git push origin main
 
 git status
