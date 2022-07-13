@@ -1,5 +1,7 @@
 cd /c
 
+mkdir Client
+
 cd /c/Client
 
 git clone https://github.com/Iabianglang/Client_test.git .
