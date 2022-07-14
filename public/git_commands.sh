@@ -16,7 +16,7 @@ mv * /c/Server_test/public
 
 git add .
 
-git commit -m "push"
+git commit
 
 cd /c/Server_test
 
@@ -26,12 +26,8 @@ git pull origin main --allow-unrelated-histories
 
 git add .
 
-git commit -m "commit to Server"
+git commit 
 
 git push origin main
 
 git status
-
-cd /c
-
-rm -r Client
